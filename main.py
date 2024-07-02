@@ -6,7 +6,6 @@ def main():
     N = int(input('Enter the number of sequences: '))
     result.append(a1)
     result.append(a2)
-    
     """
     ########################################
     Code Your Program here
