@@ -6,12 +6,15 @@ def main():
     N = int(input('Enter the number of sequences: '))
     result.append(a1)
     result.append(a2)
+    
     """
     ########################################
     Code Your Program here
     ########################################
     """
-
+    while len(result) != N:
+        result.append(result[-1] + result[-2])
+    print(*result)
     ########################################
     # Do not delete the return statement
     ########################################
